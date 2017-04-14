@@ -1,0 +1,170 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(https://raw.githubusercontent.com/akiacanada/basicPortfolio/master/assets/images/concrete_seamless/concrete_seamless.png);
+	margin:0;
+}
+
+#fixed {
+	margin:0;
+	background-color:#ffffff;	
+}
+
+header{
+	margin: 0;
+    background-color: #ffffff;
+    width: 60%;
+    float: left;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 0 0 .3px 0;
+}
+
+.name {
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 30%;
+    padding: 10px;
+    margin: 0px 0px 0px 127px;
+}
+
+nav{
+	color: #777777;
+    width: 40%;
+    float: left;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 0 0 .3px 0;
+}
+
+#github{
+	width: 50px
+}
+
+#linkedin{
+	width: 50px
+}
+
+#stack{
+	width: 50px
+}
+
+#about{
+    float: left;
+    padding: 15px;
+}
+
+#portfolio{
+    float: left;
+    padding: 15px;
+}
+
+#contact{
+    float: left;
+    padding: 15px;
+}
+
+#background{
+	clear: both;
+    padding: 8px;
+
+}
+
+.container{
+    float: left;
+    width: 500px;
+    margin: 10px 0 10px 120px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #777777;
+    border-width: .3px;
+    background-color: #fff
+}
+
+
+.desc{
+    color: #4aaaa5;
+    padding: 0px 10px 0px 20px;
+    margin: 10px;
+}
+
+#bio-image{
+    float: left;
+    padding: 0 0px;
+    margin: 17px 10px 5px 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: .3px;
+}
+
+#contactme {
+	color: #4aaaa5;
+    padding: 5px 10px 0px 15px;
+}
+
+#port{
+	color: #4aaaa5;
+    padding: 5px 10px 0px 15px;
+}
+
+form {
+	margin: 15px;
+}
+
+input {
+	margin: 5px;
+    padding: 3px;
+}
+
+textarea{
+	margin: 5px;
+    padding: 3px;
+
+}
+
+#submit{
+	background: #4aaaa5;
+	padding:10px 20px;
+    border:0 none;
+    cursor:pointer;
+    color: #fff;
+}
+
+p{
+	padding: 10px
+}
+
+aside{
+    float: right;
+    background: #ffffff;
+    margin: 10PX 270PX AUTO 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #777777;
+    border-width: .3px;
+}
+
+h3{
+	color: #4aaaa5;
+}
+
+footer{
+    clear: both;
+    color: #777777;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    background: #666666;
+}
