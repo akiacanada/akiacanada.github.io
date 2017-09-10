@@ -1,0 +1,170 @@
+/*Global Designs*/
+
+body {
+	background: #0b0c10;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	
+}
+
+header {
+	background: #0b0c10;
+	background-size:contain;
+	height:115px;
+}
+
+header h1 {
+    padding-top:30px;
+    margin-top: 0px;
+    text-align:center;
+   font-family: 'Oswald', sans-serif;
+   font-weight:bold;
+
+}
+
+.container{
+	width:90%;
+}
+
+.header {
+	text-decoration:none;
+	color:#66fcf1;
+	font-weight:bold;
+}
+
+nav {
+    background-color: #1f2833;
+}
+
+nav ul {
+	display:inline-block;
+    text-align:center;
+}
+
+nav ul a {
+	font-size: 1.2em;
+	padding: 0px 20px;
+    text-align:center;
+    color: #c5c6c7;
+}
+
+li .extra{
+	display:inline-block;
+	font-size: 1.0em;
+}
+
+.logoImage{
+    padding-left: 10px;
+}
+
+.page-footer{
+    text-align:center;
+    background: #0b0c10;
+	background-size:contain;
+}
+
+.linkedAccount {
+	width:50px;
+	margin: 0px 20px;
+}
+
+/*About Me Page*/
+
+
+.infoWrapper {
+	background-image: url("../images/indexBackground.jpg");
+	background-size:cover;
+	height:800px;
+    border-bottom: solid white 2px;
+    font-weight:bold;
+    font-size:1.1em;
+}
+
+.infoContainer {
+	width:82%;
+}
+#mainContainer{
+    margin-top:20px;
+    margin-left: 15%;
+	background-color: rgba(247, 247, 247,0.6);
+	font-family: 'Raleway', sans-serif;
+	padding:20px;
+	/*margin-top:60px;*/
+	/* border-radius:15px; */
+}
+
+.mainSection {
+	font-family: 'Raleway', sans-serif;
+	padding:20px;
+    /* border-radius:15px; */
+}
+
+
+#myFace {
+    /*width:85%;*/
+    margin-right: 20px;
+    width: 180px;
+	/* margin-top:25px; */
+	/* padding:10px; */
+    border: solid lightgrey 5px;
+    background-color: rgba(247, 247, 247,0.6);
+}
+
+
+/*Projects Page*/
+
+.portfolioWrapper {
+	background-image: url("../images/portfolioBackground.jpg");
+	background-size:cover;
+	height:800px;
+    border-bottom: solid white 2px;
+    font-weight:bold;
+    font-size:1.1em;
+}
+
+.link{
+	text-decoration:none;
+}
+
+
+div.card {
+	margin: 20px;
+}
+
+.card {
+    background-color: rgba(247, 247, 247,0.6);
+}
+
+.card .card-image img {
+	height: 215px;
+	/* border-top-right-radius: 20px;
+	border-top-left-radius: 20px; */
+}
+
+.card .card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #66fcf1!important; 
+    padding-bottom: 0px!important;
+}
+
+.card .card-content{
+    color: #0b0c10!important; 
+}
+
+/* .card .card-reveal {
+    line-height: 1.1;
+    font-size: 1.0em;
+    background-color:#eeefdc;
+    color:black;
+} */
+
+/* contact page */
+.contactWrapper {
+	background-image: url("../images/portfolioBackground.jpg");
+	background-size:cover;
+	height:500px;
+    border-bottom: solid white 2px;
+    font-weight:bold;
+    font-size:1.1em;
+}
