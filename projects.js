@@ -13,7 +13,7 @@ const PROJECTS = [
     blurb: "Flask booking system with a KPI dashboard tracking dock utilization, carrier on-time and no-show rates, and turn times, plus 7 SQL queries built around business questions. Found that last-minute bookings no-show at 5x the rate of advance bookings.",
     tech: ["Python", "Flask", "SQL", "SQLite", "Chart.js"],
     repo: "https://github.com/akiacanada/booking-scheduler-app",
-    demo: "",
+    demo: "https://dock-operations-analytics.onrender.com/dashboard",
     report: ""
   },
   {
