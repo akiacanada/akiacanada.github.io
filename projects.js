@@ -9,6 +9,14 @@ const PROJECTS = [
     report: ""
   },
   {
+    title: "Booking Scheduler App",
+    blurb: "Flask web app for scheduling appointments: clients pick a date and time slot, the app blocks double-booking of taken slots, stores bookings in SQLite via SQLAlchemy, and provides an admin view of all bookings.",
+    tech: ["Python", "Flask", "SQLAlchemy", "SQLite", "HTML/CSS"],
+    repo: "https://github.com/akiacanada/booking-scheduler-app",
+    demo: "",
+    report: ""
+  },
+  {
     title: "LiriBot (CLI App)",
     blurb: "Node.js command line app that queries APIs to return music, concert, and movie info; demonstrates API integration and CLI UX.",
     tech: ["JavaScript", "Node.js", "CLI"],
