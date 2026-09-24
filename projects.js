@@ -9,9 +9,9 @@ const PROJECTS = [
     report: ""
   },
   {
-    title: "Booking Scheduler App",
-    blurb: "Flask web app for scheduling appointments: clients pick a date and time slot, the app blocks double-booking of taken slots, stores bookings in SQLite via SQLAlchemy, and provides an admin view of all bookings.",
-    tech: ["Python", "Flask", "SQLAlchemy", "SQLite", "HTML/CSS"],
+    title: "Warehouse Dock Operations Analytics",
+    blurb: "Flask booking system with a KPI dashboard tracking dock utilization, carrier on-time and no-show rates, and turn times, plus 7 SQL queries built around business questions. Found that last-minute bookings no-show at 5x the rate of advance bookings.",
+    tech: ["Python", "Flask", "SQL", "SQLite", "Chart.js"],
     repo: "https://github.com/akiacanada/booking-scheduler-app",
     demo: "",
     report: ""
